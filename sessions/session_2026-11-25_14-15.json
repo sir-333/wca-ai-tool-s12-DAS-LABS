@@ -1,0 +1,48 @@
+{
+  "conversation": [
+    {
+      "role": "user",
+      "text": "where are you from?"
+    },
+    {
+      "role": "coach",
+      "text": "I'm Pesa Coach, your friendly money coach right here in Kenya! I'm here to help you keep track of your spending in KES. Did you spend any money today? Tell me what you bought!"
+    },
+    {
+      "role": "user",
+      "text": "I was thinking of catching a flight tomorrow"
+    },
+    {
+      "role": "coach",
+      "text": "Sounds exciting! A flight ticket will fall under transport. How much did you spend or plan to spend on the ticket in KES?"
+    },
+    {
+      "role": "user",
+      "text": "30000"
+    },
+    {
+      "role": "coach",
+      "text": "Got it! I've logged KES 30,000 under transport for your flight. That brings your total spending so far to KES 30,000. Have you spent anything else today?"
+    },
+    {
+      "role": "user",
+      "text": "whats my last spending?"
+    },
+    {
+      "role": "coach",
+      "text": "Your last recorded spending was KES 30,000 for transport (your flight ticket)."
+    }
+  ],
+  "summary": {
+    "summary": "In this session, you logged a major expense for your upcoming travel. Your single expense recorded was a flight ticket under transport, bringing your total to KES 30,000. Planning ahead for large trips is a great way to stay in control of your finances.",
+    "breakdown": {
+      "transport": 30000
+    },
+    "total_spent": 30000,
+    "ways_to_save": [
+      "Book flight tickets well in advance or take advantage of low-cost carrier promo fares like Jambojet offers.",
+      "Compare flight costs with the SGR train or comfortable buses for local Kenyan destinations to save significantly.",
+      "Use an M-Pesa Lock Saver account to save up gradually for future travel expenses instead of paying a lump sum at once."
+    ]
+  }
+}
