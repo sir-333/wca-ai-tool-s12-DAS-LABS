@@ -13,5 +13,17 @@ def check_reply(data):
         return False
     return True
 
-
+# Check the summary has all the fields we asked for
+def check_summary(data):
+    if not isinstance(data, dict):
+        return False
+    text = data.get("summary")
+    if not isinstance(text, str) or text.strip() == "":
+        return False
+    if not isinstance(data.get("breakdown"), dict):
+        return False
+    if not isinstance(data.get("total_spent"), (int, float)):
+        return False
+    tips = data.get("ways_to_save")
+    return isinstance(tips, list) and len(tips) == 3
 
