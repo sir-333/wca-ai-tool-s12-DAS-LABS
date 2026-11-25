@@ -38,6 +38,6 @@ def offline_reply(user_text):
     if any(ch.isdigit() for ch in text):
         return"I am offline, I can't record new expenses."
     for category, amount in cached.get("totals", {}).items():
-        if category.lower() in text:
-            return"Offline, from your last saved totals: KES " + str(amount) + " on " + category + "."
-    return"Offline, from your last saved totals: KES " + str(cached.get("total_spent", 0)) + " in total."
+            if any(word in text for word in ["rent", "food", "transport", "airtime", "shopping", "other"]):
+                return "Offline, I have no saved total for that category yet."
+    return "Offline, from your last saved totals: KES " + str(cached.get("total_spent", 0)) + " in total."
