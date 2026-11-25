@@ -175,13 +175,32 @@ python coach.py
 
 Menu: `1` start a new session, `2` open a past session, `3` exit. In a session, type `exit` to finish and get your summary.
 
-**Browser version**
+**Browser version (Streamlit)**
 
-```
-streamlit run app.py
-```
+1. Open a terminal in the project folder and activate the virtual environment, so the prompt starts with `(venv)`:
 
-Open the address shown in the terminal (usually `http://localhost:8501`). Use the chat box at the bottom, then click **End session and summarise** in the sidebar.
+   ```
+   venv\Scripts\activate
+   ```
+
+2. Start the app. Run `app.py`, not `coach.py`:
+
+   ```
+   streamlit run app.py
+   ```
+
+3. The first time, Streamlit may ask for an email address. You can press Enter to skip it.
+4. Wait for the terminal to show a line like `Local URL: http://localhost:8501`. Your browser should open by itself. If it does not, type that address into your browser.
+5. Use the chat box at the bottom of the page and type what you spent, for example `I spent 200 on matatu`.
+6. When you are done, click **End session and summarise** in the sidebar. The summary appears on the page and the session is saved to the `sessions/` folder.
+7. To begin again, click **Start a new session** in the sidebar. This clears the conversation on the page.
+8. To stop the app, click in the terminal and press `Ctrl + C`.
+
+Notes:
+
+- Keep the terminal open while you use the page. Closing it stops the app.
+- If the page does not load, check that you ran `streamlit run app.py` (not `python coach.py`), that `(venv)` is showing, and that you are inside the project folder.
+- The browser version does not have the past-session menu. Use the terminal version (`python coach.py`, option 2) to reopen saved sessions.
 
 ---
 
