@@ -1,4 +1,3 @@
-# wca-ai-tool-s12-DAS-LABS
 # Pesa Coach: an AI money coach for M-Pesa users
 
 Pesa Coach is a chat assistant that helps people in Kenya keep track of their spending. You tell it what you spent ("I spent 200 on matatu"), and it sorts each expense into a category, keeps running totals, answers questions about your spending, and gives you saving tips at the end of the session.
@@ -41,6 +40,7 @@ Mpesa_Coach/
 |-- .env              Your API key (never committed to Git)
 |-- cache.json        Created automatically: the last saved totals
 |-- sessions/         Created automatically: one JSON file per session
+|-- venv/             Your virtual environment (you create it in Setup, never committed to Git)
 ```
 
 ### Who explains what
@@ -253,5 +253,5 @@ Run these to confirm everything works:
 | Name | Files |
 |---|---|
 | Obadiah Sawa | `coach.py`, `app.py` |
-| Deorah Kawala | `prompts.py`, `knowledge.py` |
+| Deborah Kawala | `prompts.py`, `knowledge.py` |
 | Aggrey Saisi | `safeguards.py` |
