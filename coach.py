@@ -12,7 +12,7 @@ load_dotenv()
 api_key=os.getenv("API_KEY")
 
 if api_key:
-    print("Hey🙂")
+    print("Key found")
 else:
     print("Key lost")
     
