@@ -252,6 +252,6 @@ Run these to confirm everything works:
 
 | Name | Files |
 |---|---|
-| Oba Sawa | `coach.py`, `app.py` |
-| Debby | `prompts.py`, `knowledge.py` |
-| Aggrey | `safeguards.py` |
+| Obadiah Sawa | `coach.py`, `app.py` |
+| Deorah Kawala | `prompts.py`, `knowledge.py` |
+| Aggrey Saisi | `safeguards.py` |
