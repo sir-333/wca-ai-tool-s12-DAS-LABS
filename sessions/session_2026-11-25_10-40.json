@@ -1,0 +1,41 @@
+{
+  "conversation": [
+    {
+      "role": "user",
+      "text": "I spent 300 on transport and 200 on lunch"
+    },
+    {
+      "role": "coach",
+      "text": "Got it! I've logged KES 300 for transport and KES 200 for food, bringing your total to KES 500. Tip: Carrying lunch from home a few days a week usually costs less than buying it daily!"
+    },
+    {
+      "role": "user",
+      "text": "advice on how I can be travelling"
+    },
+    {
+      "role": "coach",
+      "text": "To save on transport, try walking short distances instead of taking a bodaboda. You can also travel off-peak when matatu fares drop, or share rides with friends. So far, you've spent KES 300 on transport out of your total KES 500 spending!"
+    },
+    {
+      "role": "user",
+      "text": "thank you"
+    },
+    {
+      "role": "coach",
+      "text": "Karibu sana! I'm always here to help you track your coins. Just let me know whenever you have more expenses to log!"
+    }
+  ],
+  "summary": {
+    "summary": "In this session, you tracked a total expenditure of KES 500. Your money went towards transport (KES 300) and lunch (KES 200). Keeping an eye on these small daily expenses is a great step toward financial discipline.",
+    "breakdown": {
+      "transport": 300,
+      "food": 200
+    },
+    "total_spent": 500,
+    "ways_to_save": [
+      "Pack lunch from home to save on your daily food expenses.",
+      "Travel during off-peak hours to take advantage of lower matatu fares.",
+      "Walk shorter distances where safe instead of paying for short transport trips."
+    ]
+  }
+}
