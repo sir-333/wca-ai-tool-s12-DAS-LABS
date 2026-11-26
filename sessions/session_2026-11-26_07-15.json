@@ -1,0 +1,24 @@
+{
+  "conversation": [
+    {
+      "role": "user",
+      "text": "i spent 300 on dinner and 60 soda, 30 salt and 85 milk"
+    },
+    {
+      "role": "coach",
+      "text": "Got it! I've added KES 475 to your food category for the dinner, soda, salt, and milk. You're doing great keeping track of your expenses!"
+    }
+  ],
+  "summary": {
+    "summary": "You spent a total of KES 475 during this session, with all expenses going towards food and groceries. Keeping track of small purchases like soda and salt is a great habit for managing your daily cash flow.",
+    "breakdown": {
+      "food": 475
+    },
+    "total_spent": 475,
+    "ways_to_save": [
+      "Cut back on soda purchases by drinking water instead, saving KES 60 regularly.",
+      "Buy pantry staples like salt in larger packs to save on unit costs over time.",
+      "Cook dinner at home in bigger batches so you can save on eating out and have meals for the next day."
+    ]
+  }
+}

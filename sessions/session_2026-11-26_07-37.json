@@ -1,0 +1,56 @@
+{
+  "conversation": [
+    {
+      "role": "user",
+      "text": "working late"
+    },
+    {
+      "role": "coach",
+      "text": "Pole for working late! Did you spend any money on late-night food or transport home? Let me know the amount so I can track it for you."
+    },
+    {
+      "role": "user",
+      "text": "I fought"
+    },
+    {
+      "role": "coach",
+      "text": "Hope you are okay! Did you spend any money on that? If you had any expense, please share the amount in KES so I can track it for you."
+    },
+    {
+      "role": "user",
+      "text": "hit opponent with a bottle\ud83e\udd72cost was 60\ud83e\udd23"
+    },
+    {
+      "role": "coach",
+      "text": "Ei! That sounds intense! I've logged KES 60 under 'other'. Your total spending so far is KES 60. Stay safe out there!"
+    },
+    {
+      "role": "user",
+      "text": "No you stay safe in the cloude"
+    },
+    {
+      "role": "coach",
+      "text": "Haha, thanks! I'm safe up here in the cloud. Did you spend on anything else today, like food or transport?"
+    },
+    {
+      "role": "user",
+      "text": "no"
+    },
+    {
+      "role": "coach",
+      "text": "Sawa kabisa! Your total spending remains KES 60. Whenever you spend next, just let me know and I'll keep your budget updated!"
+    }
+  ],
+  "summary": {
+    "summary": "You tracked a total spending of KES 60 during this session. This was logged under miscellaneous expenses from an unexpected incident. Keeping track of even small amounts helps you stay fully aware of your daily cash flow.",
+    "breakdown": {
+      "other": 60
+    },
+    "total_spent": 60,
+    "ways_to_save": [
+      "Avoid unexpected costs by staying out of costly conflicts or impulse situations.",
+      "Build a small M-Pesa emergency fund to handle unexpected minor expenses without straining your budget.",
+      "Track daily micro-expenses so small costs do not silently drain your wallet over time."
+    ]
+  }
+}
