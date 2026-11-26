@@ -1,0 +1,22 @@
+{
+  "conversation": [
+    {
+      "role": "user",
+      "text": "hi"
+    },
+    {
+      "role": "coach",
+      "text": "Hey there! I'm Pesa Coach, your friendly money coach. Tell me what you've spent today in KES, like fare, lunch, or airtime, and I'll track it for you!"
+    }
+  ],
+  "summary": {
+    "summary": "You haven't logged any expenses during this session. Tracking your daily spending like matatu fare, meals, and airtime is a great first step toward building financial discipline. Start recording your expenses next time to get a personalized budget analysis!",
+    "breakdown": {},
+    "total_spent": 0,
+    "ways_to_save": [
+      "Track daily micro-expenses like snacks and airtime using M-Pesa statements to catch small money leaks.",
+      "Set up a lock-in savings account on M-Shwari or KCB M-Pesa to prevent impulse spending.",
+      "Plan your weekly meals and transport costs in advance to avoid last-minute expensive decisions."
+    ]
+  }
+}

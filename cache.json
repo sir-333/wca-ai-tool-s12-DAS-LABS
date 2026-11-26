@@ -1,12 +1,12 @@
 {
-  "reply": "Kwaheri! You've spent a total of KES 60 so far. Have a great time and feel free to check in whenever you spend next!",
-  "total_spent": 60,
+  "reply": "Hey there! I'm Pesa Coach, your friendly money coach. Tell me what you've spent today in KES, like fare, lunch, or airtime, and I'll track it for you!",
+  "total_spent": 0,
   "totals": {
     "transport": 0,
     "food": 0,
     "airtime": 0,
     "rent": 0,
     "shopping": 0,
-    "other": 60
+    "other": 0
   }
 }
