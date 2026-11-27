@@ -1,0 +1,51 @@
+{
+  "conversation": [
+    {
+      "role": "user",
+      "text": "I spent 300 on transport"
+    },
+    {
+      "role": "coach",
+      "text": "Got it! Recorded KES 300 for transport. Tip: Fares often rise at peak hours and when it rains, so travelling a little earlier or later can cost less. What else did you spend on today?"
+    },
+    {
+      "role": "user",
+      "text": "I spent 100 on airtime"
+    },
+    {
+      "role": "coach",
+      "text": "Noted! KES 100 added for airtime. Tip: Compare daily, weekly and monthly bundles before buying. A bundle that matches your real use is usually cheaper than many small top-ups. What else did you spend on?"
+    },
+    {
+      "role": "user",
+      "text": "I bought eggs, 260"
+    },
+    {
+      "role": "coach",
+      "text": "Awesome, added KES 260 for eggs under food! Eggs are a great budget-friendly protein choice. You have spent KES 660 in total so far. Did you spend on anything else?"
+    },
+    {
+      "role": "user",
+      "text": "I spent 200 on water refill"
+    },
+    {
+      "role": "coach",
+      "text": "Got it! Added KES 200 for water refill under other expenses. Your running total is now KES 860. Refilling larger water containers is a great way to save money over time! Have you spent on anything else today?"
+    }
+  ],
+  "summary": {
+    "summary": "During this session, you spent a total of KES 860 across transport, airtime, food, and water refills. Transport was your highest single expense at KES 300. Tracking these everyday purchases regularly is a great step toward mastering your personal finances.",
+    "breakdown": {
+      "transport": 300,
+      "food": 260,
+      "airtime": 100,
+      "other": 200
+    },
+    "total_spent": 860,
+    "ways_to_save": [
+      "Travel slightly outside peak rush hours to get lower matatu fares.",
+      "Buy weekly or monthly airtime bundles rather than small daily top-ups to get better value.",
+      "Buy eggs in full crates instead of smaller quantities to lower the unit price."
+    ]
+  }
+}

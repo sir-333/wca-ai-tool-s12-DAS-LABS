@@ -1,12 +1,12 @@
 {
-  "reply": "Hey there! I'm Pesa Coach, your friendly money coach. Tell me what you've spent today in KES, like fare, lunch, or airtime, and I'll track it for you!",
-  "total_spent": 0,
+  "reply": "Got it! Added KES 200 for water refill under other expenses. Your running total is now KES 860. Refilling larger water containers is a great way to save money over time! Have you spent on anything else today?",
+  "total_spent": 860,
   "totals": {
-    "transport": 0,
-    "food": 0,
-    "airtime": 0,
+    "transport": 300,
+    "food": 260,
+    "airtime": 100,
     "rent": 0,
     "shopping": 0,
-    "other": 0
+    "other": 200
   }
 }
