@@ -29,27 +29,29 @@ Built for WeCan Academy, Season 12 (AI module project).
 ## 2. Project structure
 
 ```
+```
 Mpesa_Coach/
-|-- coach.py          Gemini calls, terminal chat, saved-session menu
-|-- app.py            Streamlit (browser) version of the chat
-|-- prompts.py        The RTCCO prompts (chat prompt and summary prompt)
-|-- knowledge.py      The RAG tip list and the find_tips() function
-|-- safeguards.py     check_reply, check_summary, offline_reply
-|-- requirements.txt  Libraries to install
-|-- .gitignore        Files Git must not upload (.env, venv/, sessions/, __pycache__/)
-|-- .env              Your API key (never committed to Git)
-|-- cache.json        Created automatically: the last saved totals
-|-- sessions/         Created automatically: one JSON file per session
-|-- venv/             Your virtual environment (you create it in Setup, never committed to Git)
+|-- coach.py            Gemini calls, terminal chat, saved-session menu
+|-- app.py              Streamlit (browser) version of the chat
+|-- prompts.py          The RTCCO prompts (chat prompt and summary prompt)
+|-- knowledge.py        The RAG tip list and the find_tips() function
+|-- safeguards.py       check_reply, check_summary, offline_reply
+|-- requirements.txt    Libraries to install
+|-- samples/            A saved example session from our testing (4 turns)
+|-- .gitignore          Files Git must not upload (.env, venv/, sessions/, __pycache__/)
+|-- .env                Your API key (never committed to Git)
+|-- cache.json          Created automatically: the last saved totals
+|-- sessions/           Created automatically: one JSON file per session
+|-- venv/               Your virtual environment (you create it in Setup, never committed to Git)
 ```
 
 ### Who explains what
 
 | File | Owner |
 |---|---|
-| `prompts.py` and `knowledge.py` | Debby |
-| `safeguards.py` | Aggrey |
-| `coach.py` and `app.py` | Oba |
+| `prompts.py` and `knowledge.py` | Deborah Kawala |
+| `safeguards.py` | Aggrey Saisi |
+| `coach.py` and `app.py` | Obadiah Sawa |
 
 Every team member should be able to explain the whole flow in section 3, and their own files in detail.
 
@@ -134,8 +136,8 @@ You need Python 3 and a Gemini API key.
 1. **Get the code**
 
    ```
-   git clone <your-repository-url>
-   cd <the-repository-folder>
+   git clone <https://github.com/sir-333/wca-ai-tool-s12-DAS-LABS.git>
+   cd wca-ai-tool-s12-DAS-LABS.>
    ```
 
 2. **Create and activate a virtual environment (Windows PowerShell)**
@@ -238,7 +240,7 @@ Run these to confirm everything works:
 4. **Out-of-scope message:** ask something unrelated, like `write me a poem`. The coach should steer back to spending politely.
 5. **Summary:** type `exit`. You should get a summary, a breakdown, and three ways to save.
 6. **Saved session:** choose option 2 in the terminal menu and open the session you just saved.
-7. **Offline:** turn off the internet, start a session, and ask `how much on food`. You should get an answer from the saved totals.
+7. **Offline:** turn off the internet, start a session, and ask `how much on food`. You should get an offline message. General questions give your last saved total.
 
 ---
 
